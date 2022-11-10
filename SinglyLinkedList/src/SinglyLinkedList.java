@@ -2,10 +2,6 @@ public class SinglyLinkedList {
 
     Node node_first;
 
-    //Ekleme işlemi: Başa,sona,araya
-    //Silme işlemi: Baştan,sondan,aradan
-    //Ekrana yazdır.
-
     public void addFirst(Node node){
         node.next = node_first;
         node_first = node;
@@ -74,10 +70,10 @@ public class SinglyLinkedList {
         }
 
         temp.next = temp.next.next;
-       // İbrahim Ebru Ecenur Aybike Cemile Nadir
+      
     }
 
-    //İki bağlı listeyi birleştir:
+    
     public Node merge(SinglyLinkedList list1, SinglyLinkedList list2){
         Node temp = list1.node_first;
         while (temp.next != null){
