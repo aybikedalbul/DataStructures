@@ -6,6 +6,7 @@ public class SinglyLinkedList {
         node.next = node_first;
         node_first = node;
     }
+    
 
     public void addAnd(Node node){
         Node temp = node_first;
@@ -19,6 +20,7 @@ public class SinglyLinkedList {
             temp.next = node;
         }
     }
+    
     public void view(){
         Node temp = node_first;
 
@@ -27,6 +29,7 @@ public class SinglyLinkedList {
             temp = temp.next;
         }
     }
+    
 
     public void view(Node temp){
 
@@ -35,6 +38,7 @@ public class SinglyLinkedList {
             temp = temp.next;
         }
     }
+    
 
     public void addIndex(Node node,int index){
         Node temp = node_first;
@@ -50,8 +54,8 @@ public class SinglyLinkedList {
 
         }
     }
-    //Silme işlemleri
-
+    
+   
     public void deleteFirst(){
         node_first = node_first.next;
     }
@@ -62,6 +66,8 @@ public class SinglyLinkedList {
         }
         temp.next = temp.next.next;
     }
+    
+    
     public void deleteIndex(int index){
         Node temp = node_first;
 
