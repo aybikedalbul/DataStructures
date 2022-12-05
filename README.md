@@ -71,9 +71,19 @@ The Hash table data structure stores elements in key-value pairs where
   
 ## 5- Tree
 ### Trees Types
-  * Binary Tree
-  * Binary Search Tree (BST)
-  * AVL Tree
+A tree is a nonlinear hierarchical data structure that consists of nodes connected by edges.
+![](https://cdn.programiz.com/sites/tutorial2program/files/tree_0.png)
+![](https://cdn.programiz.com/sites/tutorial2program/files/nodes-edges_0.png)
+
+### Tree Applications
+- Quickly check whether an element is present in a set or not.
+- Most popular databases use B-Trees and T-Trees, which are variants of the tree structure to store their data
+- Compilers use a syntax tree to validate the syntax of every program you write.
+
+### Types of Tree
+* Binary Tree
+* Binary Search Tree (BST)
+* AVL Tree
   * B-Tree
 ## 6- Graph
 
